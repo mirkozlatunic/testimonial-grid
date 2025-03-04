@@ -1,10 +1,11 @@
+import Cards from './Cards';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
+    <div className="container mx-auto justify-center items-center flex min-h-screen px-8.5 py-18">
+      <Cards />
+    </div>
   );
 }
 
