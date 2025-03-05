@@ -5,10 +5,12 @@ function Cards() {
   return (
     <div className="grid grid-cols-1 gap-8 mx-auto">
       {data.map((data) => {
+        const textColor =
+          data.backgroundColor !== 'bg-white' ? 'text-white' : 'text-black';
         return (
           <div
             key={data.id}
-            className={`shadow-3xl rounded-lg p-8 ${data.backgroundColor}`}
+            className={`shadow-3xl rounded-lg p-8 ${data.backgroundColor} ${textColor}`}
           >
             <div className="flex items-center pb-4 gap-4">
               <img
