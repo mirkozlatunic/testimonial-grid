@@ -14,7 +14,7 @@ function Cards() {
               <img
                 src={data.pic}
                 alt={data.name}
-                className="rounded-full size-7"
+                className={`rounded-full size-7 ${data.borderPic}`}
               />
               <div>
                 <p className="text-[13px]">{data.name}</p>

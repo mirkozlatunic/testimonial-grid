@@ -16,6 +16,7 @@ const data = [
       '“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the  best - and most grueling - time of my life. Since completing the course, I’ve  successfully switched careers, working as a Software Engineer at a VR startup. ”',
     pic: danielPic,
     backgroundColor: 'bg-[#733fc8]',
+    borderPic: 'border-2 border-[#a775f1]',
   },
   {
     id: uuidv4(),
@@ -47,6 +48,7 @@ const data = [
       '“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people.  ”',
     pic: patrickPic,
     backgroundColor: 'bg-[#19202d]',
+    borderPic: 'border-2 border-[#733fc8]',
   },
   {
     id: uuidv4(),
