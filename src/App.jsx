@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container mx-auto justify-center items-center flex min-h-screen px-8.5 py-18">
+    <div className="font-barlow container mx-auto justify-center items-center flex min-h-screen px-8.5 py-18">
       <Cards />
     </div>
   );
